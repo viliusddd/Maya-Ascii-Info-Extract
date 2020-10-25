@@ -1,10 +1,12 @@
+import json
 import math
 import ntpath
 import re
-from sys import argv
-import json
+
 from os import listdir, walk
 from os.path import isfile, isdir, join, splitext
+from sys import argv
+
 
 class Ma(object):
     def __init__(self, path):
@@ -138,5 +140,3 @@ ma = Ma(argv[1])
 ma.isMaya()
 ma.info()
 ma.writeJson()
-
-# if foo.ma History is not deleted then polycount might be slightly off
