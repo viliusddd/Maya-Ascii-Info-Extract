@@ -1,3 +1,3 @@
 # MayaAsciiInfoExtract
 ## Description
-Reads Maya Ascii file and returns relevant information about file
+Read Maya Ascii file and return relevant information about the file
